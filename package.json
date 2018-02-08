@@ -1,0 +1,32 @@
+{
+	"name": "eslint-config-skyrpex",
+	"version": "1.0.0",
+	"description": "ESLint Shareable Config for JavaScript Style",
+	"main": "base.js",
+	"dependencies": {
+		"babel-eslint": "^8.2.1",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-config-standard": "^11.0.0-beta.0",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jest": "^21.7.0",
+		"eslint-plugin-node": "^5.2.1",
+		"eslint-plugin-prettier": "^2.5.0",
+		"eslint-plugin-promise": "^3.6.0",
+		"eslint-plugin-standard": "^3.0.1",
+		"eslint-plugin-vue": "^4.2.0",
+		"prettier": "^1.10.2"
+	},
+	"devDependencies": {
+		"eslint": "^4.16.0"
+	},
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/skyrpex/eslint-config-skyrpex.git"
+  },
+	"author": "Cristian Pallarés <cristian@pallares.io",
+	"license": "MIT",
+  "bugs": {
+      "url": "https://github.com/skyrpex/eslint-config-skyrpex/issues"
+  },
+  "homepage": "https://github.com/skyrpex/eslint-config-skyrpex#readme"
+}

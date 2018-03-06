@@ -14,14 +14,14 @@ Add this to your ```.eslintrc.json``` file:
 
 ```json
 {
-  "extends": ["skyrpex"]
+    "extends": ["skyrpex"]
 }
 ```
 If you use Buble (instead of Babel):
 
 ```json
 {
-  "extends": ["skyrpex/buble"]
+    "extends": ["skyrpex/buble"]
 }
 ```
 
@@ -29,7 +29,7 @@ If you use Vue:
 
 ```json
 {
-  "extends": ["skyrpex/vue"]
+    "extends": ["skyrpex/vue"]
 }
 ```
 
@@ -37,5 +37,5 @@ If you use Jest:
 
 ```json
 {
-  "extends": ["skyrpex/jest"]
+    "extends": ["skyrpex/jest"]
 }

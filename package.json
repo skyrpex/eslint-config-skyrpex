@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-skyrpex",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "ESLint Shareable Config for JavaScript Style",
 	"main": "base.js",
 	"dependencies": {

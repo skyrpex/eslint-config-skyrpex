@@ -18,5 +18,6 @@ module.exports = {
                 closeBracket: 0,
             },
         ],
+        "vue/html-closing-bracket-spacing": "error",
     },
 };

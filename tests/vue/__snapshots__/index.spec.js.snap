@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should report buble-related errors 1`] = `
+Object {
+  "errorCount": 1,
+  "fixableErrorCount": 1,
+  "fixableWarningCount": 0,
+  "results": Array [
+    Object {
+      "errorCount": 1,
+      "filePath": "component.fixture.vue",
+      "fixableErrorCount": 1,
+      "fixableWarningCount": 0,
+      "messages": Array [
+        Object {
+          "column": 27,
+          "endColumn": 28,
+          "endLine": 16,
+          "fix": Object {
+            "range": Array [
+              285,
+              286,
+            ],
+            "text": "",
+          },
+          "line": 16,
+          "message": "Delete \`,\`",
+          "nodeType": null,
+          "ruleId": "prettier/prettier",
+          "severity": 2,
+          "source": "    testVeryLongMethodName,",
+        },
+      ],
+      "source": "<template>
+    <div>
+        <h1
+            class=\\"heading\\"
+            :class=\\"cssClasses\\"
+        />
+    </div>
+</template>
+
+<script>
+const testVeryLongMethodName = () => {};
+
+testVeryLongMethodName(
+    testVeryLongMethodName,
+    testVeryLongMethodName,
+    testVeryLongMethodName,
+);
+
+export default {
+    data: () => ({
+        cssClasses: \\"heading--dark\\",
+    }),
+};
+</script>
+",
+      "warningCount": 0,
+    },
+  ],
+  "warningCount": 0,
+}
+`;
+
+exports[`should validate without errors 1`] = `
+Object {
+  "errorCount": 0,
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 0,
+  "results": Array [
+    Object {
+      "errorCount": 0,
+      "filePath": "component.fixture.vue",
+      "fixableErrorCount": 0,
+      "fixableWarningCount": 0,
+      "messages": Array [],
+      "warningCount": 0,
+    },
+  ],
+  "warningCount": 0,
+}
+`;

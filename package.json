@@ -2,11 +2,15 @@
 	"name": "eslint-config-skyrpex",
 	"version": "2.1.0",
 	"description": "ESLint Shareable Config for JavaScript Style",
-	"main": "base.js",
+    "main": "base.js",
+    "scripts": {
+        "test": "jest"
+    },
 	"dependencies": {
 		"babel-eslint": "^8.2.1",
 		"eslint-config-prettier": "^2.9.0",
 		"eslint-config-standard": "^11.0.0-beta.0",
+		"eslint-plugin-flow-check": "^1.2.0",
 		"eslint-plugin-import": "^2.8.0",
 		"eslint-plugin-jest": "^21.7.0",
 		"eslint-plugin-node": "^5.2.1",
@@ -17,7 +21,11 @@
 		"prettier": "^1.10.2"
 	},
 	"devDependencies": {
-		"eslint": "^4.16.0"
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-flow": "^6.23.0",
+		"eslint": "^4.16.0",
+		"flow-bin": "^0.71.0",
+		"jest": "^22.4.3"
 	},
 	"repository": {
 		"type": "git",

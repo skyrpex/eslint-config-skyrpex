@@ -4,7 +4,7 @@ module.exports = {
     extends: ["./base.js", "plugin:vue/recommended"],
     plugins: ["vue"],
     parserOptions: {
-        parser: "babel-eslint",
+        parser: require.resolve("babel-eslint"),
     },
     rules: {
         "vue/html-closing-bracket-newline": [

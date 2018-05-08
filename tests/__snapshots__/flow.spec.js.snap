@@ -13,13 +13,13 @@ Object {
       "fixableWarningCount": 0,
       "messages": Array [
         Object {
-          "column": 22,
+          "column": 21,
           "endColumn": 26,
           "endLine": 6,
           "line": 6,
-          "message": "string: This type is incompatible with: 'number'. See incompatible-type.fixture.js:6",
+          "message": "Cannot assign \`\\"123\\"\` to \`this.prop\` because string is incompatible with number (see line 3).",
           "nodeType": null,
-          "ruleId": "flow-check/check",
+          "ruleId": "flowtype-errors/show-errors",
           "severity": 2,
           "source": "        this.prop = \\"123\\";",
         },

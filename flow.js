@@ -1,11 +1,11 @@
 module.exports = {
     extends: ["./base.js"],
-    plugins: ["flow-check"],
+    plugins: ["flowtype-errors"],
     parser: require.resolve("vue-eslint-parser"),
     parserOptions: {
         parser: require.resolve("babel-eslint"),
     },
     rules: {
-        "flow-check/check": 2,
+        "flowtype-errors/show-errors": 2,
     },
 };

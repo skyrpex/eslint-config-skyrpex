@@ -1,7 +1,7 @@
-const { createEngine, cleanReport } = require("../utils");
+const { createEngine, cleanReport } = require("./utils");
 
 const engine = createEngine({
-    configFile: require.resolve("./eslint.config.js"),
+    configFile: require.resolve("../base.js"),
 });
 
 test("should report missing trailing slash", () => {

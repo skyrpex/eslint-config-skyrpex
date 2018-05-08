@@ -1,7 +1,7 @@
-const { createEngine, cleanReport } = require("../utils");
+const { createEngine, cleanReport } = require("./utils");
 
 const engine = createEngine({
-    configFile: require.resolve("./eslint.config.js"),
+    configFile: require.resolve("../flow.js"),
 });
 
 test("should report incompatible type error", () => {

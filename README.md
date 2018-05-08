@@ -34,6 +34,14 @@ If you use Vue:
 }
 ```
 
+If you use Flow:
+
+```json
+{
+    "extends": ["skyrpex/flow"]
+}
+```
+
 If you use Jest:
 
 ```json

@@ -1,15 +1,7 @@
-const path = require("path");
 const { CLIEngine } = require("eslint");
+const { cleanReport } = require("../utils");
 
 const cwd = `${__dirname}/fixtures`;
-
-const cleanReport = ({ results, ...report }) => ({
-    ...report,
-    results: results.map(({ filePath, ...result }) => ({
-        ...result,
-        filePath: path.relative(cwd, filePath),
-    })),
-});
 
 test("should validate without errors", () => {
     const engine = new CLIEngine({

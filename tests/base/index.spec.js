@@ -1,13 +1,7 @@
-const { CLIEngine } = require("eslint");
-const { cleanReport } = require("../utils");
+const { createEngine, cleanReport } = require("../utils");
 
-const cwd = `${__dirname}/fixtures`;
-
-const engine = new CLIEngine({
-    cwd,
+const engine = createEngine({
     configFile: require.resolve("./eslint.config.js"),
-    useEslintrc: false,
-    ignore: false,
 });
 
 test("should report missing trailing slash", () => {

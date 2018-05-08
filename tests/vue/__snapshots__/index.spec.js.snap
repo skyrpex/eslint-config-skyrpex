@@ -8,7 +8,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 1,
-      "filePath": "tests/vue/fixtures/component.fixture.vue",
+      "filePath": "tests/fixtures/component.fixture.vue",
       "fixableErrorCount": 1,
       "fixableWarningCount": 0,
       "messages": Array [
@@ -71,7 +71,7 @@ Object {
   "results": Array [
     Object {
       "errorCount": 0,
-      "filePath": "tests/vue/fixtures/component.fixture.vue",
+      "filePath": "tests/fixtures/component.fixture.vue",
       "fixableErrorCount": 0,
       "fixableWarningCount": 0,
       "messages": Array [],

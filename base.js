@@ -1,3 +1,5 @@
+const { tabWidth } = require("./constants");
+
 module.exports = {
     extends: ["standard", "prettier", "prettier/standard"],
     plugins: ["standard", "prettier"],
@@ -19,7 +21,7 @@ module.exports = {
             "error",
             {
                 trailingComma: "all",
-                tabWidth: 4,
+                tabWidth: tabWidth,
             },
         ],
     },

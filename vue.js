@@ -1,3 +1,5 @@
+const { tabWidth } = require("./constants");
+
 module.exports = {
     extends: ["./base.js", "plugin:vue/recommended"],
     plugins: ["vue"],
@@ -13,7 +15,7 @@ module.exports = {
         ],
         "vue/html-indent": [
             "error",
-            4,
+            tabWidth,
             {
                 closeBracket: 0,
             },

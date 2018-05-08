@@ -4,7 +4,7 @@ ESLint Shareable Config for JavaScript Style
 
 ## Installation
 
-```
+```bash
 npm install eslint-config-skyrpex -D
 ```
 
@@ -17,6 +17,7 @@ Add this to your ```.eslintrc.json``` file:
     "extends": ["skyrpex"]
 }
 ```
+
 If you use Buble (instead of Babel):
 
 ```json

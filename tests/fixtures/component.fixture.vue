@@ -1,8 +1,8 @@
 <template>
     <div>
         <h1
-            class="heading"
             :class="cssClasses"
+            class="heading"
         />
     </div>
 </template>

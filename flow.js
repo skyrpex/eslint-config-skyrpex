@@ -5,6 +5,9 @@ module.exports = {
     parserOptions: {
         parser: require.resolve("babel-eslint"),
     },
+    globals: {
+        TimeoutID: true,
+    },
     rules: {
         "flowtype-errors/show-errors": 2,
     },
